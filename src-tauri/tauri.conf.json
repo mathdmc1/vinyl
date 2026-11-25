@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Vinyl Desktop",
+  "version": "0.1.0",
+  "identifier": "com.vinyldesktop.app",
+  "build": {
+    "frontendDist": "../renderer"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico"],
+    "category": "Music",
+    "shortDescription": "Reproductor visual de escritorio para Spotify"
+  }}
+
