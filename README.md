@@ -22,4 +22,3 @@ npm run tauri dev
 ```powershell
 npm run tauri build
 ```
-
